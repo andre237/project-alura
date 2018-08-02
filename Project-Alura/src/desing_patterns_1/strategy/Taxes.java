@@ -5,13 +5,13 @@ public enum Taxes implements Tax {
     ICMS {
         @Override
         public double calculateTax(Budget budget) {
-            return budget.getValue() * 0.15;
+            return budget.getValue() * 0.25;
         }
     },
     ISS {
         @Override
         public double calculateTax(Budget budget) {
-            return budget.getValue() * 0.2;
+            return budget.getValue() * 0.22;
         }
     },
     IOF {
