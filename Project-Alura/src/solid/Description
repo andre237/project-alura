@@ -3,5 +3,5 @@ S.O.L.I.D
 S = Single Responsibility Principle - Princípio que aumenta a coesão das classes pela definição de responsabilidades inteiramente encapsuladas, exclusivas à cada classe.
 O = Open/Closed Principle - Princípio que sugere manter as classes abertas para expansão e fechadas para modificações, pelo uso de abstração
 L = Liskov Substitution Principle -
-I = Interface Segregation Principle -
+I = Interface Segregation Principle - Afirma que nenhum cliente da interface deve implementar métodos que não usa
 D = Dependency Inversion - Princípio que inverte o padrão de depêndencias, dizendo que devemos sempre depender de abstrações e não de implementações, pelo fato de serem mais estáveis
